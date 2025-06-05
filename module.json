@@ -1,0 +1,17 @@
+{
+  "name": "custom-v5-sheet",
+  "title": "V5 Custom Sheet - Внутренние Тени",
+  "version": "1.0.0",
+  "description": "Альтернативный чарлист для V5 с возможностью переименования характеристик.",
+  "author": "Создано с помощью ChatGPT",
+  "esmodules": ["scripts/register.js"],
+  "languages": [
+    { "lang": "ru", "name": "Русский", "path": "lang/ru.json" }
+  ],
+  "styles": [],
+  "packs": [],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  }
+}
