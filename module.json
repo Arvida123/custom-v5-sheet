@@ -1,17 +1,20 @@
 {
   "name": "custom-v5-sheet",
-  "title": "V5 Custom Sheet - Внутренние Тени",
+  "title": "V5 Custom Sheet – Внутренние Тени",
+  "description": "Пользовательский лист персонажа для Vampire: the Masquerade 5e с возможностью редактирования названий атрибутов и навыков.",
   "version": "1.0.0",
-  "description": "Альтернативный чарлист для V5 с возможностью переименования характеристик.",
-  "author": "Создано с помощью ChatGPT",
+  "author": "Arvida123",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "12",
   "esmodules": ["scripts/register.js"],
   "languages": [
-    { "lang": "ru", "name": "Русский", "path": "lang/ru.json" }
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    }
   ],
-  "styles": [],
-  "packs": [],
-  "compatibility": {
-    "minimum": "11",
-    "verified": "12"
-  }
+  "styles": ["styles/styles.css"],
+  "manifest": "https://github.com/Arvida123/custom-v5-sheet/releases/download/v1.0.0/module.json",
+  "download": "https://github.com/Arvida123/custom-v5-sheet/releases/download/v1.0.0/custom-v5-sheet.zip"
 }
