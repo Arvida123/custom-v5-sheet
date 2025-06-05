@@ -1,10 +1,11 @@
 {
+  "id": "custom-v5-sheet",             
   "name": "custom-v5-sheet",
   "title": "Custom V5 Character Sheet",
   "description": "A custom character sheet for Vampire: the Masquerade 5th Edition.",
   "version": "1.0.0",
   "author": "Arvida123",
-  "minimumCoreVersion": "0.8.6",
+  "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
   "scripts": ["scripts/sheet.js"],
   "languages": [
@@ -14,7 +15,6 @@
       "path": "lang/en.json"
     }
   ],
-  "esmodules": [],
   "styles": [],
   "packs": [],
   "system": "v5",
