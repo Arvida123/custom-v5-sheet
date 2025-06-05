@@ -1,9 +1,9 @@
 {
   "id": "custom-v5-sheet",
-  "type": "module",                                // Обязательно!
+  "type": "module",
   "title": "Custom V5 Character Sheet",
   "description": "A custom character sheet for Vampire: the Masquerade 5th Edition.",
-  "version": "1.0.1",                              // Обнови версию
+  "version": "1.0.1",
   "authors": [{ "name": "Arvida123" }],
   "compatibility": {
     "minimum": "13",
