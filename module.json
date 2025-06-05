@@ -1,14 +1,15 @@
 {
   "id": "custom-v5-sheet",
-  "name": "custom-v5-sheet",
+  "type": "module",                                // Обязательно!
   "title": "Custom V5 Character Sheet",
   "description": "A custom character sheet for Vampire: the Masquerade 5th Edition.",
-  "version": "1.0.0",
-  "author": "Arvida123",
-  "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "11",
+  "version": "1.0.1",                              // Обнови версию
+  "authors": [{ "name": "Arvida123" }],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
   "scripts": ["scripts/sheet.js"],
-  "styles": [],
   "languages": [
     {
       "lang": "en",
@@ -16,7 +17,6 @@
       "path": "lang/en.json"
     }
   ],
-  "packs": [],
   "systems": ["v5"],
   "url": "https://github.com/Arvida123/custom-v5-sheet",
   "manifest": "https://raw.githubusercontent.com/Arvida123/custom-v5-sheet/main/module.json",
